@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import SelectClassroom from '../Components/SelectClassroom/SelectClassroom';
 class Classroom extends Component {
   constructor(props) {
     super(props);
@@ -7,7 +7,7 @@ class Classroom extends Component {
   render() {
     return (
       <div>
-        <h1>Classroomee</h1>
+        <SelectClassroom />
       </div>
     );
   }

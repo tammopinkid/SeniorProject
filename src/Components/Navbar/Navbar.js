@@ -16,6 +16,10 @@ class Navbar extends Component {
       classname = 'nav-item active';
     } else if (pathname === '/exam') {
       classname = 'nav-item active';
+    } else if (pathname === '/test') {
+      classname = 'nav-item active';
+    } else if (pathname === '/submit') {
+      classname = 'nav-item active';
     } else {
       classname = 'nav-item';
     }
@@ -74,6 +78,24 @@ class Navbar extends Component {
             >
               <a className="nav-link" href="/exam">
                 <i className="fa fa-briefcase" /> Exam
+              </a>
+            </li>
+            <li
+              className={
+                this.props.path === '/test' ? 'nav-item active' : 'nav-item'
+              }
+            >
+              <a className="nav-link" href="/test">
+                <i className="fa fa-briefcase" /> test
+              </a>
+            </li>
+            <li
+              className={
+                this.props.path === '/submit' ? 'nav-item active' : 'nav-item'
+              }
+            >
+              <a className="nav-link" href="/submit">
+                <i className="fa fa-briefcase" /> submit
               </a>
             </li>
           </ul>
