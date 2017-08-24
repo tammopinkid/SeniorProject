@@ -77,7 +77,7 @@ class Navbar extends Component {
               </a>
             </li>
           </ul>
-          <ul className="navbar-nav pull-right">
+          {/*<ul className="navbar-nav pull-right">
             <li
               className={
                 this.props.path === '/projects' ? 'nav-item active' : 'nav-item'
@@ -107,7 +107,7 @@ class Navbar extends Component {
                 </div>
               </div>
             </li>
-          </ul>
+          </ul>*/}
         </div>
         <style jsx>
           {`

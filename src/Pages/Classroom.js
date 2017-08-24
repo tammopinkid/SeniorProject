@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Sidebar from '../Components/Sidebar/Sidebar';
+import SelectClasssroom from '../Components/SelectClassroom/SelectClassroom';
 
 class Classroom extends Component {
   constructor(props) {
@@ -7,7 +9,8 @@ class Classroom extends Component {
   render() {
     return (
       <div>
-        <h1>Classroomee</h1>
+        <Sidebar />
+        <SelectClasssroom />
       </div>
     );
   }
